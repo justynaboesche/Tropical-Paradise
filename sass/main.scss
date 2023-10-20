@@ -1,4 +1,4 @@
-@use './colors';
+@use './colors' as *;
 @use './components';
 @use './mixins' as *;
 
@@ -67,7 +67,20 @@ body {
 		&::before {
 			top: 27px;
 			width: 30%;
-			transition-delay: .1s;
+			transition-delay: 0.1s;
 		}
 	}
+}
+
+//HEADER
+.header {
+	position: relative;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+	padding: 2em;
+	height: 75vh;
+	text-align: center;
+	color: $pure-white;
 }
