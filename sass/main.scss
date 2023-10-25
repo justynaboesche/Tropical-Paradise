@@ -83,5 +83,5 @@ body {
 	height: 75vh;
 	text-align: center;
 	color: $pure-white;
-	@include heroImages('../img/header-mini.jpg')
+	@include heroImages('../img/header-mini.jpg');background-attachment: scroll;
 }
