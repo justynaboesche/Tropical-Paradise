@@ -83,5 +83,12 @@ body {
 	height: 75vh;
 	text-align: center;
 	color: $pure-white;
-	@include heroImages('../img/header-mini.jpg');background-attachment: scroll;
+	@include heroImages('../img/header-mini.jpg');
+	background-attachment: scroll;
+
+	&__heading {
+		font-family: 'Dancing Script', cursive;
+		font-size: 4.8rem;
+		font-weight: 300;
+	}
 }
