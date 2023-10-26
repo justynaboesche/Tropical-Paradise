@@ -128,6 +128,20 @@ body {
   color: #fff;
   text-decoration: none;
 }
+.nav__item::before {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 3px;
+  height: 100%;
+  transform: scaleY(0);
+  background-color: #fff;
+  transition: transform 0.3s;
+  content: "";
+}
+.nav__item:hover::before {
+  transform: scaleY(1);
+}
 
 .header {
   position: relative;
