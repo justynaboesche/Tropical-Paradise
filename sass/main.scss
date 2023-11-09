@@ -251,13 +251,13 @@ body {
 			transition: transform 1s, opacity 1s;
 
 			&--first {
-				background-image: $light-blue-gradient, url('../img/water-3354063_640.jpg');
+				background-image: $light-blue-gradient, url('../img/islands1.jpg');
 			}
 			&--second {
-				background-image: $blue-gradient, url('../img/boat-166738_640.jpg');
+				background-image: $blue-gradient, url('../img/islands2.jpg');
 			}
 			&--third {
-				background-image: $purple-gradient, url('../img/hawaii-79928_640.jpg');
+				background-image: $purple-gradient, url('../img/islands3.jpg');
 			}
 
 			&-title {
